@@ -1,58 +1,67 @@
-# Agience CookieMaps
+Agience CookieMaps
 
-## Overview
-Agience CookieMaps is an AI-powered cryptocurrency data visualization platform developed by Agience AI. It simplifies crypto market analysis through advanced clustering, AI-driven insights, and real-time data visualization. Our mission is to make cryptocurrency trading and investment more intuitive, data-driven, and accessible to all users.
 
-## Features
-- **AI-Driven Market Analysis** – Uses machine learning models to classify and cluster cryptocurrencies.
-- **Dynamic Clustering** – Organizes cryptocurrencies into visually interactive groups based on market trends.
-- **Real-Time Data Visualizations** – Provides insights from CookieDAO’s DataSwarm API, including social sentiment and trading activity.
-- **AI Chatbot Assistance** – Natural Language Processing (NLP)-powered chatbot to help users understand market movements.
-- **User-Friendly Interface** – Designed for novice traders and experienced investors alike.
-- **Portfolio Tracking & Insights** – Analyze, track, and optimize crypto portfolios.
 
-## Installation
-### Clone the repository:
-```sh
+Overview
+
+Agience CookieMaps is a web platform designed to make crypto trading easy through AI-powered insights and intuitive visualizations. Our goal is to simplify market analysis for both beginners and experienced traders by providing real-time data and AI-driven recommendations.
+
+Features
+
+AI-Powered Trading Insights – Leverage machine learning to get trading suggestions and market trends.
+
+Interactive Visualizations – Understand crypto market movements with clear and intuitive charts.
+
+Real-Time Data – Stay updated with the latest market trends and price movements.
+
+User-Friendly Interface – Designed for both beginners and professional traders.
+
+Installation
+
+Clone the repository:
+
 git clone https://github.com/ikailo/agience-cookiemaps.git
-```
-### Navigate into the project folder:
-```sh
+
+Navigate into the project folder:
+
 cd agience-cookiemaps
-```
-### Open the project files in your preferred code editor.
 
-### Run the backend using Python:
-```sh
-python app.py
-```
-### Open the `index.html` file in a web browser to access the platform.
+Install dependencies:
 
-## Running with Docker
-To run CookieMaps using Docker, use the following commands:
+npm install
 
-### Build the Docker image:
-```sh
-docker build -t agience-cookiemaps .
-```
-### Run the Docker container:
-```sh
-docker run -p 8000:8000 agience-cookiemaps
-```
-The application will be available at `http://localhost:8000/`.
+Start the development server:
 
-## Usage
-- Open the application in your browser.
-- Explore AI-driven insights and market data visualizations.
-- Utilize AI-powered chatbot assistance for cryptocurrency explanations.
-- Make informed trading and investment decisions based on **CookieDAO API** data.
+npm start
 
-## Tech Stack
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python (Flask/FastAPI)
-- **AI & Analytics**: OpenAI models, CookieDAO DataSwarm API, K-means clustering
-- **Deployment**: Docker, AWS EC2
+Usage
 
-## License
-This project is licensed under the **AGPL-3.0 License**.
+Open the web application in your browser.
 
+Connect your crypto wallet.
+
+Explore the AI-powered trading recommendations and interactive visualizations.
+
+Make informed trading decisions based on real-time market insights.
+
+Tech Stack
+
+Frontend: HTML, CSS, JS, Flask
+
+Backend: Python
+
+Database: MongoDB
+
+AI/ML: TensorFlow.js, Python (for AI models)
+
+Contributing
+
+We welcome contributions! Feel free to open issues, submit pull requests, or suggest new features.
+
+License
+
+This project is licensed under the MIT License.
+
+Contact
+
+For any inquiries or support, reach out to us at your-email@example.com.
